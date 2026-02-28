@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nexora Watches</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+}
+
+.header{
+    background:#111;
+    color:white;
+    padding:15px;
+    text-align:center;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:15px;
+    padding:15px;
+}
+
+.card{
+    background:white;
+    border-radius:8px;
+    padding:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+    border-radius:6px;
+}
+
+.product-name{
+    font-size:15px;
+    margin:8px 0;
+    font-weight:bold;
+}
+
+.price{
+    color:#e60000;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.btn{
+    display:block;
+    background:#25D366;
+    color:white;
+    padding:8px;
+    text-align:center;
+    border-radius:5px;
+    text-decoration:none;
+    margin-top:8px;
+    font-weight:bold;
+}
+
+.footer{
+    text-align:center;
+    padding:15px;
+    background:#111;
+    color:white;
+    margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">Nexora Watches ⌚</div>
+
+<div class="products">
+
+<div class="card">
+<img src="gshock.jpg" alt="Green GShock">
+<div class="product-name">Green G-Shock Watch</div>
+<div class="price">₦35,000</div>
+<a class="btn" href="https://wa.me/2349119183257?text=Hello%20I%20want%20to%20order%20the%20Green%20G-Shock%20Watch%20for%20₦35,000">Order on WhatsApp</a>
+</div>
+
+<div class="card">
+<img src="valenzo.jpg" alt="Black Valenzo">
+<div class="product-name">Black Valenzo Watch</div>
+<div class="price">₦20,000</div>
+<a class="btn" href="https://wa.me/2349119183257?text=Hello%20I%20want%20to%20order%20the%20Black%20Valenzo%20Watch%20for%20₦20,000">Order on WhatsApp</a>
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 Nexora Watches | Lagos, Nigeria
+</div>
+
+</body>
+</html>
